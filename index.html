@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="title icon" type="image/png" href="images/logo_jujuy.png">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">    
+    <link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+    <script type="text/javascript" src="adivinanza.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Paisajes de Jujuy</title>
+</head>
+<body>
+    
+    <header>
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-expand-md navbar-light bg-warning fixed-top">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav"><span class="navbar-toggler-icon"></span> </button>           
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-light font-weight-bold px-3" href="">Inicio</a></li>
+                    <li class="nav-item"><a href="#galeria" class="nav-link text-light font-weight-bold px-3">Paisajes</a></li>
+                    <li class="nav-item"><a class="nav-link text-light font-weight-bold px-3" href="contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link text-light font-weight-bold px-3" href="" onclick="adivinanza()">Adivinanza</a></li>
+                </ul>
+            </div>                   
+        </nav>
+        <!-- Fin Barra de navegación -->
+        <!-- Portada -->
+        <div class="portada">
+            <h1 class="titulo">Paisajes de Jujuy</h1>
+        </div>
+        <!-- Fin Portada -->
+    </header>
+
+    <!-- galería -->
+    <section class="p-5">
+        <div class="container-fluid" id="galeria">
+            <div class="row">
+                <div class="col text-center mb-3">
+                    <p class="lead text-secondary">Sierras, montañas y cerros multicolores. Simpleza y pureza. Un valle andino de 155 kilómetros de extensión, cavado por el río Grande. Estos son algunos de los paisajes que Jujuy tiene para ofrecer. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <img src="images/quebrada_humahuaca.jpeg" class="img-thumbnail" alt="">
+                    <h2 class="my-3 text-warning">Quebrada de Humahuaca</h2>
+                    <p class="text-muted">La Quebrada de Humahuaca surge como una abertura o pequeño valle entre los cerros por donde corre el Río Grande. La quebrada funciona como un paso natural entre la zona de La Puna y el resto del país.</p>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <img src="images/garganta_diablo.jpg" class="img-thumbnail" alt="">
+                    <h2 class="my-3 text-warning">Garganta del Diablo</h2>
+                    <p class="text-muted">La Garganta del Diablo es una formación rocosa de gran altura ubicada a aproximadamente 7 kilómetros de la ciudad de Tilcara. En dicha formación se puede observar también una cascada de alrededor de 15 metros de altura. </p>
+                </div>
+                <div class="col-lg-3 col-sm-6"><img src="images/cuesta_lipan.jpg" class="img-thumbnail" alt="">
+                    <h2 class="my-3 text-warning">Cuesta de Lipán</h2>
+                    <p class="text-muted">La cuesta de Lipán corresponde a un tramo zigzagueante y empinado de la Ruta Nacional 52, ubicada en el departamento de Tumbaya. El camino que recorre la cuesta alcanza la altura máxima de la carretera en el Abra de Potrerillos a 4.170 metros de altura.</p></div>
+                <div class="col-lg-3 col-sm-6"><img src="images/calilegua.jpg" class="img-thumbnail" alt="">
+                    <h2 class="my-3 text-warning">Parque Nacional Calilegua</h2>
+                    <p class="text-muted">El parque posee una gran belleza paisajística que puede apreciarse en todo su esplendor al transitar la Ruta Provincial 83. Presenta una vegetación característica y es posible avistar ciertas especies de aves y mamíferos, lo cual convierte a este sitio en un lugar ideal para la observación de fauna.</p></div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin galería -->  
+    
+    <!-- footer -->
+    <footer class="bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h3 class="text-white font-weight-light p-3">Página Web - Paisajes de Jujuy</h3>
+                    <h5 class="text-light font-weight-light font-italic mb-3">Hernán Orsi - Clip 2020</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- final footer -->
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
